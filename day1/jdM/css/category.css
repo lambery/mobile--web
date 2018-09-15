@@ -1,0 +1,132 @@
+html,body{
+    height: 100%;
+}
+.jd_layout{
+    width: 100%;
+    height: 100%;
+
+}
+/*1111111*/
+.jd_topBar{
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px solid #ccc;
+    background: url("../images/header-bg.png") 0 0/ 1px 44px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+.jd_topBar a{
+    width: 40px;
+    height: 44px;
+    padding: 12px 10px;
+    position: absolute;
+    top: 0;
+    /*border: 3px dashed yellow;*/
+    background-origin: content-box;
+    background-clip: content-box;
+}
+.jd_topBar .icon_back{
+    left: 0;
+    background-position: -20px 0;
+}
+.jd_topBar .icon_menu{
+    right: 0;
+    background-position: -60px 0;
+}
+.jd_topBar form{
+    width: 100%;
+    padding: 0 40px;
+}
+.jd_topBar form input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    margin-top: 7px;
+    padding: 0 10px;
+}
+/*22222222*/
+.jd_main{
+    width: 100%;
+    height: 100%;
+    padding-top: 45px;
+}
+.jd_main .jd_cateLeft{
+    /*background: pink;*/
+    width: 90px;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+.jd_cateLeft ul{
+    width: 90px;
+}
+.jd_cateLeft ul li{
+    width: 90px;
+    height: 50px;
+    line-height: 50px;
+    background: #f3f3f5;
+    font-size: 12px;
+    text-align: center;
+    border-bottom:1px solid #ccc;
+    border-right:1px solid #ccc;
+}
+.jd_cateLeft ul li.now{
+    border-right: none;
+    background: #ffffff;
+}
+.jd_cateLeft ul li a{
+    display: block;
+    width: 100%;
+}
+.jd_cateLeft ul li.now a{
+    color: #d8505c;
+}
+/*222222221111*/
+.jd_main .jd_cateRight{
+    overflow: hidden;/*bfc绝缘体-----------*/
+    height: 100%;
+}
+.jd_cateRight_box{
+    padding: 0 10px;
+}
+.jd_cateRight_box .banner{
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+.jd_cateRight_box .banner img{
+    width: 100%;
+    display: block;
+}
+.jd_cateRight_box .hot{
+    margin-top: 10px;
+
+}
+.jd_cateRight_box .hot h3{
+    font-size: 12px;
+}
+.jd_cateRight_box .hot ul{
+    width: 100%;
+}
+.jd_cateRight_box .hot ul li{
+    width: 33.33%;
+    float: left;
+}
+.jd_cateRight_box .hot ul li a{
+    display: block;
+    width: 100%;
+}
+.jd_cateRight_box .hot ul li a img{
+    display: block;
+    width: 62px;
+    height: 62px;
+    margin: 0 auto;
+}
+.jd_cateRight_box .hot ul li a p{
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 0;
+}
