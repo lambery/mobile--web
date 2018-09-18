@@ -1,8 +1,9 @@
 $(function () {
 
     banner();
-    
-    
+    initMobileTab();
+
+    $('[data-toggle="tooltip"]').tooltip();//初始化工具提示
 });
 
 var banner=function () {
@@ -28,7 +29,6 @@ var banner=function () {
     var render=function () {
         getData(function (data) { //被callback的函数 ，，渲染数据
             var isMobile=$(window).width()<768?true:false;
-            console.log($(window).width());
 
             var pointHtml=template('pointTemplate',{list:data}); //data数组转为对象
             var imageHtml=template('imageTemplate',{list:data, isMobile:isMobile});//这对象里面有两个数组
@@ -74,3 +74,24 @@ var banner=function () {
 
 };
 
+
+var initMobileTab=function () {
+
+    var $navTabs=$('.wjs_product .nav-tabs');
+    var width=0;
+
+    $navTabs.find('li').each(function (i,item) {
+        var $currLi=$(this);//$(item);
+        var liWidth=$currLi.outerWidth(true);
+
+        width+=liWidth;
+    });
+    //console.log(width);
+    $navTabs.width(width);
+
+    new IScroll($('.nav-tabs-parent')[0],{
+        scrollX:true,
+        scrollY:false,
+        click:true
+    })
+};
