@@ -66,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/响应式开发day3--/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="246" column="91" selection-start-line="246" selection-start-column="91" selection-end-line="246" selection-end-column="91" />
+            <state relative-caret-position="200">
+              <caret line="56" column="46" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -88,14 +88,14 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/响应式开发day3--/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="467" column="26" selection-start-line="467" selection-start-column="26" selection-end-line="467" selection-end-column="26" />
+            <state relative-caret-position="248">
+              <caret line="167" column="21" selection-start-line="167" selection-start-column="21" selection-end-line="167" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/响应式开发day3--/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
@@ -168,9 +168,9 @@
         <option value="$PROJECT_DIR$/响应式开发day3--/demo/12轮播图响应式.html" />
         <option value="$PROJECT_DIR$/响应式开发day3--/js/data.json" />
         <option value="$PROJECT_DIR$/响应式开发day3--/demo/17标签页.html" />
+        <option value="$PROJECT_DIR$/响应式开发day3--/js/index.js" />
         <option value="$PROJECT_DIR$/响应式开发day3--/css/index.css" />
         <option value="$PROJECT_DIR$/响应式开发day3--/index.html" />
-        <option value="$PROJECT_DIR$/响应式开发day3--/js/index.js" />
       </list>
     </option>
   </component>
@@ -180,10 +180,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="671" />
-    <option name="y" value="490" />
+    <option name="x" value="266" />
+    <option name="y" value="337" />
     <option name="width" value="1545" />
-    <option name="height" value="712" />
+    <option name="height" value="765" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -432,15 +432,15 @@
       <workItem from="1537070497166" duration="16422000" />
       <workItem from="1537151909396" duration="997000" />
       <workItem from="1537161201366" duration="23148000" />
-      <workItem from="1537234564411" duration="14579000" />
+      <workItem from="1537234564411" duration="19808000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101874000" />
+    <option name="totallyTimeSpent" value="107103000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="671" y="490" width="1545" height="712" extended-state="0" />
+    <frame x="266" y="337" width="1545" height="765" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.116415955" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -655,14 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/响应式开发day3--/lib/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="4088" column="1" selection-start-line="4020" selection-start-column="0" selection-end-line="4088" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day1/jdM(流式布局)/js/category.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -679,18 +671,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/响应式开发day3--/lib/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="4088" column="1" selection-start-line="4020" selection-start-column="0" selection-end-line="4088" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/响应式开发day3--/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/响应式开发day3--/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="467" column="26" selection-start-line="467" selection-start-column="26" selection-end-line="467" selection-end-column="26" />
+        <state relative-caret-position="248">
+          <caret line="167" column="21" selection-start-line="167" selection-start-column="21" selection-end-line="167" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/响应式开发day3--/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="246" column="91" selection-start-line="246" selection-start-column="91" selection-end-line="246" selection-end-column="91" />
+        <state relative-caret-position="200">
+          <caret line="56" column="46" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
           <folding>
             <element signature="n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -701,14 +709,6 @@
             <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/响应式开发day3--/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
