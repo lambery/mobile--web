@@ -1,0 +1,48 @@
+@charset "UTF-8";
+//混入
+//.w50{
+//  width: 50%;
+//}
+//.f_left{
+//  float: left;
+//}
+//.f_right{
+//  float: right;
+//}
+
+//类混入
+//.w50-f_left{
+//  .w50();
+//  .f_right();
+//}
+
+//函数混入
+.w50(){
+  width: 50%;
+}
+
+//.f_left(){
+//  float: left;
+//}
+//.f_right(){
+//  float: left;
+//}
+
+//传参
+//  :left定义默认值
+.f(@direction:left){
+  float: @direction;
+}
+.borderRadius(@width:100px){
+  border-radius: @width;
+  -webkit-border-radius: @width;
+  -moz-border-radius: @width;
+  -o-border-radius: @width;
+  -ms-border-radius: @width;
+}
+.w50-f_left{
+  .w50();
+  .f(right);
+  .borderRadius(50px);
+
+}

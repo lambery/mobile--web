@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/*变量*/
+div {
+  background: #e92333;
+}
+a:hover {
+  color: #e92333;
+}
+.box {
+  color: #e92333;
+}

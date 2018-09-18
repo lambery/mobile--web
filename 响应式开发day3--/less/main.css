@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/*变量*/
+div {
+  background: #e92333;
+}
+a:hover {
+  color: #e92333;
+}
+.box {
+  color: #e92333;
+}
+.w50-f_left {
+  width: 50%;
+  float: right;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -o-border-radius: 50px;
+  -ms-border-radius: 50px;
+}
+.wjs_app {
+  display: block;
+}
+.wjs_app img {
+  display: none;
+}
+.wjs_app:hover img {
+  display: block;
+}
+.wjs_app > div {
+  display: block;
+}
+ul {
+  width: 500%;
+}
+ul li {
+  width: 20%;
+  color: #ffffff;
+  background: #262626;
+  border-color: #ff3333;
+}

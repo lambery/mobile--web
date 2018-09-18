@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.wjs_app {
+  display: block;
+}
+.wjs_app img {
+  display: none;
+}
+.wjs_app:hover img {
+  display: block;
+}
+.wjs_app > div {
+  display: block;
+}
