@@ -5,8 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Title</title>
+    <link rel="stylesheet" href="lib/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/less" href="less/index.less">
+    <link rel="stylesheet" type="text/less" href="less/index-swiper.less">
     <script src="lib/less/less.min.js"></script>
 </head>
 <body>
@@ -22,29 +23,25 @@
         <a href="#" class="icon_cart"></a>
     </header>
 
-
-    <div class="sn_banner">
-        <ul>
-            <li><a href="#"><img src="images/banner08.jpg" alt=""></a></li>
-            <li><a href="#"><img src="images/banner01.jpg" alt=""></a></li>
-            <li><a href="#"><img src="images/banner02.jpg" alt=""></a></li>
-            <li><a href="#"><img src="images/banner03.jpg" alt=""></a></li>
-            <li><a href="#"><img src="images/banner04.jpg" alt=""></a></li>
-            <li><a href="#"><img src="images/banner05.jpg" alt=""></a></li>
-            <li><a href="#"><img src="images/banner06.jpg" alt=""></a></li>
-            <li><a href="#"><img src="images/banner07.jpg" alt=""></a></li>
-            <li><a href="#"><img src="images/banner08.jpg" alt=""></a></li>
-            <li><a href="#"><img src="images/banner01.jpg" alt=""></a></li>
+    <style>
+        .swiper-container img{
+            width: 100%;
+            display: block;
+        }
+    </style>
+    <div class="swiper-container">
+        <ul class="swiper-wrapper">
+            <li class="swiper-slide"><a href="#"><img src="images/banner01.jpg" alt=""></a></li>
+            <li class="swiper-slide"><a href="#"><img src="images/banner02.jpg" alt=""></a></li>
+            <li class="swiper-slide"><a href="#"><img src="images/banner03.jpg" alt=""></a></li>
+            <li class="swiper-slide"><a href="#"><img src="images/banner04.jpg" alt=""></a></li>
+            <li class="swiper-slide"><a href="#"><img src="images/banner05.jpg" alt=""></a></li>
+            <li class="swiper-slide"><a href="#"><img src="images/banner06.jpg" alt=""></a></li>
+            <li class="swiper-slide"><a href="#"><img src="images/banner07.jpg" alt=""></a></li>
+            <li class="swiper-slide"><a href="#"><img src="images/banner08.jpg" alt=""></a></li>
         </ul>
-        <ul>
-            <li class="now"></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+
+        <ul class="swiper-pagination">
         </ul>
     </div>
 
@@ -77,10 +74,38 @@
 </div>
 
 <script src="lib/zepto/zepto.min.js"></script>
-<!--zepto扩展选择器-->
-<script src="lib/zepto/selector.js"></script>
-<script src="lib/zepto/fx.js"></script>
-<script src="lib/zepto/touch.js"></script>
-<script src="js/index.js"></script>
+<script src="lib/swiper/js/swiper.jquery.min.js"></script>
+<script>
+    $(function () {
+        new Swiper('.swiper-container' , {
+//            autoplay: 2000,
+//            loop:true,
+//            pagination : '.swiper-pagination',
+//            autoplayDisableOnInteraction: false
+
+
+
+            autoplay: 2000,
+            loop:true,
+            pagination: '.swiper-pagination',
+            autoplayDisableOnInteraction: false,
+            effect: 'cube',
+            speed:800,
+            grabCursor: true,
+            cube: {
+                shadow: true,
+                slideShadows: true,
+                shadowOffset: 20,
+                shadowScale: 0.94
+            }
+
+
+
+        });
+
+
+
+    })
+</script>
 </body>
 </html>
