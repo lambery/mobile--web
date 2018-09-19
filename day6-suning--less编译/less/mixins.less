@@ -1,0 +1,13 @@
+//less没有循环语句，使用函数的迭代 死循环，根据数组长度去停止循环
+//给函数的执行附加条件  需要序号来判断 通过序号遍历 @index 1或@len开始
+.adapterMixin(@index) when(@index > 0) {
+
+  @media (min-width: extract(@adapterDeviceList,@index)) {
+    html{
+      font-size: @baseFontSize / @psWidth * extract(@adapterDeviceList,@index);
+    }
+  }
+
+  .adapterMixin(@index - 1);
+
+}
